@@ -8,13 +8,11 @@ Step 1: Format the USB completely with the help of disk utility like Gparted or 
 Step 2: Open terminal and get into sudo user mode and type.<br>
 ```
 sudo su
-```
-<br>       
-Step 3: type 
+```     
+Step 3: type
 ```
 lsblk
 ```
-<br>
 Step 4: Now check and make note of which disk is your USB, eg: ```/dev/sdX``` where X might be a,b,c etc.<br>
 
 Step 5: go to the folder where the ISO image is present on terminal<br>
