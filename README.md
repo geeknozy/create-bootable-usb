@@ -27,3 +27,13 @@ Note: <br>
 2. /dev/sdX, here X is the device mount point of USB from step 4.<br>
         
 Wait till the progress is completed and you get the temrinal prompt.<br>
+
+#### mount usb with write permission
+```
+sudo mount -o rw,umask=0 /dev/sdb1 /run/media/<username>
+```
+
+ext4
+```
+sudo chown -R your_username:your_username /media/myusb
+```
